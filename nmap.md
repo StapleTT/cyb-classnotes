@@ -61,3 +61,8 @@ sudo apt install nmap
     - EX: nmap -A -T4 192.168.1.1
     - speeds range from quiet to loud
     - default is T3
+
+- service detection
+    - nmap -sV <ipaddr>
+    - only gets us the service versions running on the ports
+    - faster than tring to get the entire OS
